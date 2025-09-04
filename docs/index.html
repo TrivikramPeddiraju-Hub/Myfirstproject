@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trivikram Peddiraju — Portfolio & Blog</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Trivikram Peddiraju</h1>
+    <p class="tagline">Entry-Level Software Engineer • Java • React • AWS/Azure • Learning AI</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Hi! I’m Trivikram, a software developer based in Massachusetts. I’m building my first portfolio + blog
+        to learn coding step-by-step and share what I’m learning — Java, Spring Boot, React.js, CI/CD, Docker,
+        and cloud (AWS & Azure).
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="pill-list">
+        <li>Java</li><li>Python</li><li>JavaScript</li>
+        <li>React.js</li><li>Spring Boot</li><li>REST APIs</li>
+        <li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li>
+        <li>Docker</li><li>GitHub Actions</li><li>Jenkins</li>
+        <li>AWS</li><li>Azure</li><li>Linux</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>AI-Powered To-Do (Coming Soon)</h3>
+        <p>Full-stack app where an AI helper suggests priorities and titles for tasks.</p>
+      </article>
+      <article>
+        <h3>Spring Boot REST API (Starter)</h3>
+        <p>Simple CRUD API to learn fundamentals.</p>
+      </article>
+      <article>
+        <h3>Portfolio + Blog (This Site)</h3>
+        <p>Static site hosted on GitHub Pages.</p>
+      </article>
+    </section>
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <ul id="blog-list"></ul>
+      <article id="blog-post" class="hidden">
+        <h3 id="post-title"></h3>
+        <p id="post-date"></p>
+        <div id="post-content"></div>
+        <a href="#blog" id="back-to-list">← Back to list</a>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:Trivikrampeddiraju.7@gmail.com">Trivikrampeddiraju.7@gmail.com</a></p>
+      <p>GitHub: <a href="#">Add your GitHub link here</a></p>
+      <p>LinkedIn: <a href="#">Add your LinkedIn link here</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Trivikram Peddiraju</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
